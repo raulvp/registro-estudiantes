@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Loguin Sistema</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/misestilos.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid">
+    
+
+    <div class="row">
+        <div class="col-4">
+            
+        </div>
+        <div class="col-4">
+            <h1>Registro de Estudiantes</h1>
+
+            <form action="">
+                <div class="form-group">
+                  <label for="">Nombre:</label>
+                  <input type="text"
+                    class="form-control" name="nombre" id="nombre" aria-describedby="helpId" placeholder="">
+                  
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">Apellido paterno:</label>
+                            <input type="text"
+                              class="form-control" name="appat" id="appat" aria-describedby="helpId" placeholder="">
+                            
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">Apellido materno:</label>
+                            <input type="text"
+                              class="form-control" name="apmat" id="apmat" aria-describedby="helpId" placeholder="">
+                            
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">Cedula identidad:</label>
+                            <input type="text"
+                              class="form-control" name="ci" id="ci" aria-describedby="helpId" placeholder="">
+                            
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">Telefono:</label>
+                            <input type="text"
+                              class="form-control" name="fono" id="fono" aria-describedby="helpId" placeholder="">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <label for="">Sexo:</label>
+                    <br>
+                    <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="sexo" id="sexo" value="checkedValue" checked>
+                  Hombre
+                  <br>
+                  <input type="radio" class="form-check-input" name="sexo" id="sexo" value="checkedValue" checked>
+                  Mujer
+                  </label>
+                </div>
+
+                <div class="form-group">
+                  <label for="">Departamento origen:</label>
+                  <select class="form-control" name="" id="">
+                    <option>Cochabamba</option>
+                    <option>La Paz</option>
+                    <option>Santa Cruz</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                    <label for="">Carrera:</label>
+                    <select class="form-control" name="" id="">
+                      <option>Sistemas Informaticos</option>
+                      <option>Contaduria Publica</option>
+                      <option>Secretariado</option>
+                      <option>Marketing</option>
+                    </select>
+                  </div>
+
+                <div class="form-group">
+                  <label for="">Datos Adicionales:</label>
+                  <textarea class="form-control" name="datos" id="datos" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Registrar</button>
+
+            </form>
+           
+        </div>
+        <div class="col-4">
+            
+        </div>
+        
+    </div>
+        
+</div>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="lib/jquery.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="lib/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
